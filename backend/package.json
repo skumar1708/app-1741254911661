@@ -1,0 +1,14 @@
+{
+  "name": "tictactoe-backend",
+  "version": "1.0.0",
+  "description": "Backend for Tic-Tac-Toe game",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.7",
+    "dotenv": "^8.2.0"
+  }
+}
