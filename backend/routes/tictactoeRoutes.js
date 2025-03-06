@@ -1,0 +1,1 @@
+const express = require('express'); const router = express.Router(); const { getGameState, updateGameState, resetGame } = require('../controllers/tictactoeController'); router.get('/', getGameState); router.put('/', updateGameState); router.post('/reset', resetGame); module.exports = router;
